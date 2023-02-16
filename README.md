@@ -1,9 +1,9 @@
-[project-name]: Foo
-[project-url]: https://github.com/Tactics/Foo
-[project-build]: https://github.com/Tactics/Foo/actions/workflows/quality_assurance.yaml/badge.svg
-[project-tests]: https://github.com/Tactics/Foo/blob/main/badge-coverage.svg
+[project-name]: Kind en Gezin
+[project-url]: https://github.com/Tactics/KindEnGezin
+[project-build]: https://github.com/Tactics/KindEnGezin/actions/workflows/quality_assurance.yaml/badge.svg
+[project-tests]: https://github.com/Tactics/KindEnGezin/blob/main/badge-coverage.svg
 
-# Foo
+# Kind En Gezin
 ![Build][project-build]
 ![Tests][project-tests]
 [![Software License][ico-license]](LICENSE.md)
@@ -27,7 +27,7 @@ since this is a private package hosted on our own Composer repository generator 
 Then run the following command
 
 ``` bash
-$ composer require tactics/foo
+$ composer require tactics/kind-en-gezin
 ```
 
 ## Dependencies
