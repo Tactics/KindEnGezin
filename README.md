@@ -1,11 +1,9 @@
-[project-name]: Kind en Gezin
+[project-name]: KindEnGezin
 [project-url]: https://github.com/Tactics/KindEnGezin
 [project-build]: https://github.com/Tactics/KindEnGezin/actions/workflows/quality_assurance.yaml/badge.svg
-[project-tests]: https://github.com/Tactics/KindEnGezin/blob/main/badge-coverage.svg
 
-# Kind En Gezin
+# KindEnGezin
 ![Build][project-build]
-![Tests][project-tests]
 [![Software License][ico-license]](LICENSE.md)
 
 Provide a detailed description of the project.
@@ -66,5 +64,3 @@ The Lesser GPL version 3 or later. Please see [License File](LICENSE.md) for mor
 [link-owner]: https://github.com/Tactics
 [link-contributors]: ../../contributors
 [ico-license]: https://img.shields.io/badge/License-AGPLv3-green.svg?style=flat-square
-
-
