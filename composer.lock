@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "401dc657d1e761e67f27d05cd80a7e59",
+    "content-hash": "a10c95936ee272718365982b3ff0109b",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -640,16 +640,16 @@
         },
         {
             "name": "tactics/datetime",
-            "version": "2.0.0",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Tactics/DateTime.git",
-                "reference": "28127875978ac2c047d2eb9546128e2ee959bb6a"
+                "reference": "a2b7bc309721e9866cce610885f36ea0038487a5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/28127875978ac2c047d2eb9546128e2ee959bb6a",
-                "reference": "28127875978ac2c047d2eb9546128e2ee959bb6a",
+                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/a2b7bc309721e9866cce610885f36ea0038487a5",
+                "reference": "a2b7bc309721e9866cce610885f36ea0038487a5",
                 "shasum": ""
             },
             "require": {
@@ -691,9 +691,14 @@
                 ],
                 "phpstan": [
                     "vendor/bin/phpstan analyse --memory-limit=-1 --ansi"
+                ],
+                "quality-assurance": [
+                    "vendor/bin/ecs check --config ecs.php",
+                    "vendor/bin/phpunit --coverage-text",
+                    "vendor/bin/phpstan --memory-limit=-1 --debug --xdebug"
                 ]
             },
-            "time": "2023-02-17T14:30:07+00:00"
+            "time": "2023-02-17T19:08:12+00:00"
         }
     ],
     "packages-dev": [
