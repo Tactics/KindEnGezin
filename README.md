@@ -1,12 +1,12 @@
-[project-name]: Kind en Gezin
+[project-name]: Kind En Gezin
 [project-url]: https://github.com/Tactics/KindEnGezin
 [project-build]: https://github.com/Tactics/KindEnGezin/actions/workflows/quality_assurance.yaml/badge.svg
-[project-tests]: https://github.com/Tactics/KindEnGezin/blob/main/badge-coverage.svg
 
-# Kind En Gezin
+# KindEnGezin
 ![Build][project-build]
-![Tests][project-tests]
 [![Software License][ico-license]](LICENSE.md)
+
+Provide a detailed description of the project.
 
 Provide a detailed description of the project.
 
