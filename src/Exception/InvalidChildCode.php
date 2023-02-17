@@ -3,21 +3,18 @@
 namespace Tactics\KindEnGezin\Exception;
 
 use LogicException;
-use Tactics\KindEnGezin\Enum\ChildCode\Format;
 use Tactics\KindEnGezin\ValueObject\ChildCode;
 use Throwable;
 
-class InvalidChildCode extends LogicException {
-
+class InvalidChildCode extends LogicException
+{
     public const INVALID_LENGTH = 1;
 
     public const NON_NUMERIC = 2;
 
-    public const INVALID_CODE_FORMAT = 3;
+    public const INVALID_DATE = 3;
 
-    public const INVALID_DATE = 4;
-
-    public const INVALID_DAY_OF_BIRTH = 5;
+    public const INVALID_DAY_OF_BIRTH = 4;
 
     public static function invalidLength(): self
     {
@@ -35,11 +32,12 @@ class InvalidChildCode extends LogicException {
         );
     }
 
-    public static function invalidDate(): self
+    public static function invalidDate(Throwable|null $previous = null): self
     {
         return new self(
             'The first six digits need to form a valid date',
-            self::INVALID_DATE
+            self::INVALID_DATE,
+            $previous
         );
     }
 
@@ -51,12 +49,4 @@ class InvalidChildCode extends LogicException {
             $previous
         );
     }
-
-    public static function invalidCodeFormat(string $code, Format $format) : self {
-        return new self(
-            sprintf('the child code "%s" is not in the provided format: %s',$code, $format->pattern()),
-            self::INVALID_CODE_FORMAT
-        );
-    }
-
 }

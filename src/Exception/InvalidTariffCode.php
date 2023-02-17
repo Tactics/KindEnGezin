@@ -6,13 +6,13 @@ use LogicException;
 use Tactics\KindEnGezin\Enum\TariffCode\Format;
 use Tactics\KindEnGezin\ValueObject\TariffCode;
 
-class InvalidTariffCode extends LogicException {
+class InvalidTariffCode extends LogicException
+{
+    public const INVALID_LENGTH = 1;
 
-    private const INVALID_LENGTH = 1;
+    public const NON_NUMERIC = 2;
 
-    private const NON_NUMERIC = 2;
-
-    private const INVALID_CODE_FORMAT = 3;
+    public const INVALID_CHILD_CODE = 3;
 
     public static function invalidLength(): self
     {
@@ -30,11 +30,12 @@ class InvalidTariffCode extends LogicException {
         );
     }
 
-    public static function invalidCodeFormat(string $code, Format $format) : self {
+    public static function invalidChildCode(InvalidChildCode $previous): self
+    {
         return new self(
-            sprintf('the tariff code "%s" is not in the provided format: %s',$code, $format->pattern()),
-            self::INVALID_CODE_FORMAT
+            sprintf('the tariff code contains an invalid child code due to: %s', $previous->getMessage()),
+            self::INVALID_CHILD_CODE,
+            $previous
         );
     }
-
 }

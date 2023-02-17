@@ -28,5 +28,4 @@ enum Shelter: string
      * Meestal in een apart gebouw. Een grotere opvang is opgedeeld in leefgroepen van max. 18 kinderen.
      */
     case GROUP = 'GROUP';
-
 }

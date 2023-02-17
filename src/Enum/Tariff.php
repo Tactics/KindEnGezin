@@ -40,5 +40,4 @@ enum Tariff: string
      * https://www.kindengezin.be/nl/thema/kinderopvang-en-naar-school/kostprijs/vrije-prijs
      */
     case NOT_BASED_ON_INCOME = 'NOT_BASED_ON_INCOME';
-
 }

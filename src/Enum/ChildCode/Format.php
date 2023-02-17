@@ -15,9 +15,4 @@ enum Format: string
     {
         return $this->value;
     }
-
-    public function isInFormat(string $value) : bool {
-        $formatted = vsprintf(str_replace('x', '%s', $this->pattern()), str_split($value));
-        return $formatted === $value;
-    }
 }
