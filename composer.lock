@@ -573,16 +573,16 @@
         },
         {
             "name": "tactics/datetime",
-            "version": "3.0.2",
+            "version": "3.0.3",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Tactics/DateTime.git",
-                "reference": "4181ab94562cab08bf117642d2b63f006dabccec"
+                "reference": "3d998e8c5d2e0965bcf5356cbc5f879a1a1f4d25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/4181ab94562cab08bf117642d2b63f006dabccec",
-                "reference": "4181ab94562cab08bf117642d2b63f006dabccec",
+                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/3d998e8c5d2e0965bcf5356cbc5f879a1a1f4d25",
+                "reference": "3d998e8c5d2e0965bcf5356cbc5f879a1a1f4d25",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                     "vendor/bin/phpstan --memory-limit=-1 --debug --xdebug"
                 ]
             },
-            "time": "2023-02-18T16:07:47+00:00"
+            "time": "2023-02-18T21:05:44+00:00"
         }
     ],
     "packages-dev": [
