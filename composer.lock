@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a10c95936ee272718365982b3ff0109b",
+    "content-hash": "e72629c9cb4ecc2b5551e4db4b302a57",
     "packages": [
         {
             "name": "beberlei/assert",
@@ -640,16 +640,16 @@
         },
         {
             "name": "tactics/datetime",
-            "version": "2.0.1",
+            "version": "3.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Tactics/DateTime.git",
-                "reference": "a2b7bc309721e9866cce610885f36ea0038487a5"
+                "reference": "6210bed3403b84c472dc86c758b198688e67a486"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/a2b7bc309721e9866cce610885f36ea0038487a5",
-                "reference": "a2b7bc309721e9866cce610885f36ea0038487a5",
+                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/6210bed3403b84c472dc86c758b198688e67a486",
+                "reference": "6210bed3403b84c472dc86c758b198688e67a486",
                 "shasum": ""
             },
             "require": {
@@ -698,7 +698,7 @@
                     "vendor/bin/phpstan --memory-limit=-1 --debug --xdebug"
                 ]
             },
-            "time": "2023-02-17T19:08:12+00:00"
+            "time": "2023-02-18T14:30:14+00:00"
         }
     ],
     "packages-dev": [
