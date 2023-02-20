@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4765c5e4630898a18f08d6e463b36a0b",
+    "content-hash": "03f210268ab8eeecc36d69f89f217906",
     "packages": [
         {
             "name": "nesbot/carbon",
@@ -573,7 +573,7 @@
         },
         {
             "name": "tactics/datetime",
-            "version": "4.0.0",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Tactics/DateTime.git",
