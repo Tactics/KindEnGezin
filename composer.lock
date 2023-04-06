@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03f210268ab8eeecc36d69f89f217906",
+    "content-hash": "3bea25f3d49db433e6b3a7a5ae8a2762",
     "packages": [
         {
             "name": "nesbot/carbon",
@@ -573,16 +573,16 @@
         },
         {
             "name": "tactics/datetime",
-            "version": "1.0.0",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "git@github.com:Tactics/DateTime.git",
-                "reference": "b6d6f345b106bc8ea84b2ae24836a2fe4ae1cef7"
+                "reference": "5633c20b44a5f5fc43a5f15f9e2a86fbbdaa4453"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/b6d6f345b106bc8ea84b2ae24836a2fe4ae1cef7",
-                "reference": "b6d6f345b106bc8ea84b2ae24836a2fe4ae1cef7",
+                "url": "https://api.github.com/repos/Tactics/DateTime/zipball/5633c20b44a5f5fc43a5f15f9e2a86fbbdaa4453",
+                "reference": "5633c20b44a5f5fc43a5f15f9e2a86fbbdaa4453",
                 "shasum": ""
             },
             "require": {
@@ -631,7 +631,7 @@
                     "vendor/bin/phpstan --memory-limit=-1 --debug --xdebug"
                 ]
             },
-            "time": "2023-02-20T08:30:19+00:00"
+            "time": "2023-04-06T14:38:46+00:00"
         }
     ],
     "packages-dev": [

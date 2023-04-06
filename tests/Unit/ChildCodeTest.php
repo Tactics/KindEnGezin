@@ -157,7 +157,7 @@ final class ChildCodeTest extends TestCase
                 )
             ),
             'test' => function (ChildCode|InvalidChildCode $childCode) {
-                self::assertEquals('220316', $childCode->dayOfBirth()->toDateTime()->format('ymd'));
+                self::assertEquals('220316', $childCode->dayOfBirth()->toDateTimePlus()->toPhpDateTime()->format('ymd'));
             },
         ];
     }
