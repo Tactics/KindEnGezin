@@ -3,15 +3,17 @@
 namespace Tactics\KindEnGezin\Enum;
 
 /**
- * Types van opvang.
+ * Types van kinderopvang.
  *
- * Er zijn 2 soorten opvang, gezinsopvang, een kleinschalige opvang waar meestal
- * 1 onthaalouder de kinderen opvangt of Groepsopvang waar meerdere kinderbegeleiders
- * de kinderen opvangen.
+ * Er zijn 2 soorten opvang:
+ * - Gezinsopvang: een kleinschalige opvang waar meestal 1 onthaalouder de kinderen opvangt
+ * - Groepsopvang: een grotere opvang waar meerdere kinderbegeleiders de kinderen opvangen.
+ *
+ * Meerder onthaalouders kunnen ook samenwerken en zo een Groepsopvang vormen.
  *
  * https://www.kindengezin.be/nl/thema/kinderopvang-en-naar-school/zoek-een-opvang/welke-soorten-opvang-zijn-er
  */
-enum Shelter: string
+enum TypeOfDaycare: string
 {
     /**
      * Gezinsopvang.
