@@ -4,7 +4,6 @@ namespace Tactics\KindEnGezin\Enum;
 
 enum TypeOfChildcare: string
 {
-
     /**
      * Voorschoolse opvang.
      *
@@ -37,5 +36,4 @@ enum TypeOfChildcare: string
      * de voorschoolse opvang per definitie de kinderen niet naar school gaan.
      */
     case EXTRACURRICULAR_DAY_OFF = 'EXTRACURRICULAR_DAY_OFF';
-    
 }
