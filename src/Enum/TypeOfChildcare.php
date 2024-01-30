@@ -19,21 +19,5 @@ enum TypeOfChildcare: string
      */
     case EXTRACURRICULAR = 'EXTRACURRICULAR';
 
-    /**
-     * Buitenschoolse opvang in de vakantie.
-     *
-     * Dit is opvang voor schoolgaande kinderen tijdens de vakantie periodes.
-     * Het is enkel een apart concept binnen buitenschoolse opvang sinds
-     * de voorschoolse opvang per definitie opvang biedt in de vakantie periodes.
-     */
-    case EXTRACURRICULAR_HOLIDAY = 'EXTRACURRICULAR_HOLIDAY';
-
-    /**
-     * Buitenschoolse opvang op een snipperdag.
-     *
-     * Dit is opvang voor schoolgaande kinderen tijdens een snipperdag op school.
-     * Het is enkel een apart concept binnen buitenschoolse opvang sinds
-     * de voorschoolse opvang per definitie de kinderen niet naar school gaan.
-     */
-    case EXTRACURRICULAR_DAY_OFF = 'EXTRACURRICULAR_DAY_OFF';
 }
+
