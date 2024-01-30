@@ -18,6 +18,4 @@ enum TypeOfChildcare: string
      * Opvang na of voor de schooluren voor kinderen die naar school gaan.
      */
     case EXTRACURRICULAR = 'EXTRACURRICULAR';
-
 }
-
